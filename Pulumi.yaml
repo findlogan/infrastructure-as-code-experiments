@@ -1,0 +1,7 @@
+name: pulumitest
+runtime: nodejs
+description: A minimal OpenStack TypeScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""

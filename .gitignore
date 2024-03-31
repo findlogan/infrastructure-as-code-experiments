@@ -1,0 +1,4 @@
+/bin/
+/node_modules/
+configure-pulumi-local.sh
+Pulumi.dev.yaml
