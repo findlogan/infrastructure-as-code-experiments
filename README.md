@@ -46,6 +46,9 @@ Other Resources:
 
 - [DevStack local environment for OpenStack (Official Docs)](https://docs.openstack.org/devstack/latest/)
 
+### Openstack (Ansible Install)
+
+- [https://docs.openstack.org/openstack-ansible/2023.2/user/aio/quickstart.html](https://docs.openstack.org/openstack-ansible/2023.2/user/aio/quickstart.html)
 
 ## Cloud Images
 
