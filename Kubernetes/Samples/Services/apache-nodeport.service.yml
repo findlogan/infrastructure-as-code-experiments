@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: apache-nodeport 
+  labels:
+    app: my-apache
+spec:
+  selector:
+    app: my-apache
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 31000
+  type: NodePort

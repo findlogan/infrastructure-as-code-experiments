@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: apache-loadbalancer 
+spec:
+  selector:
+    app: my-apache
+  ports:
+    - name: "80"
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
+
+# sudo ethtool -K flannel.1 tx-checksum-ip-generic off - Might help?

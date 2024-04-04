@@ -1,4 +1,4 @@
 /bin/
-/node_modules/
-configure-pulumi-local.sh
-Pulumi.dev.yaml
+**/node_modules/*
+/Pulumi/Openstack/configure-pulumi-local.sh
+/Pulumi/Openstack/Pulumi.dev.yaml
