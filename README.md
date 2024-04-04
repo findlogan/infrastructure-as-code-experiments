@@ -14,6 +14,8 @@ I will ideally grow this with a bit of time, or I might retire it and just do mu
 
 - [https://docs.ansible.com/](https://docs.ansible.com/)
 
+---
+
 ### Kubernetes (Container Orchestration)
 
 In my case, I am going to use Kubernetes as container orchestration running docker containers
@@ -28,11 +30,15 @@ Other Resources:
 - [https://kubernetes.io/docs/home/](https://kubernetes.io/docs/home/)
 - [KubeSpray.io (For an easy k8s deployment)](https://kubespray.io/#/)
 
+---
+
 ### Docker (Containerization)
 
 > Docker is a platform that allows developers to package applications into containers, which are standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment. This simplifies development, supports consistent deployment processes, and enables seamless scaling.
 
 - [https://docs.docker.com/](https://docs.docker.com/)
+
+---
 
 ### Pulumi
 
@@ -41,18 +47,35 @@ Other Resources:
 - [Pulumi Concepts (Official Docs)](https://www.pulumi.com/docs/concepts/)
 - [Pulumi Installation (Official Docs)](https://www.pulumi.com/registry/packages/openstack/installation-configuration/)
 
+---
+
 ### Devstack (Great for Openstack evaluation or development, strongly discouraged for production)
 > Useful for developing in openstack, takes 10-15min to install
 
 - [DevStack local environment for OpenStack (Official Docs)](https://docs.openstack.org/devstack/latest/)
 
+---
+
 ### Openstack (Ansible Install)
 
 - [https://docs.openstack.org/openstack-ansible/2023.2/user/aio/quickstart.html](https://docs.openstack.org/openstack-ansible/2023.2/user/aio/quickstart.html)
 
+---
+
 #### Troubleshooting
 
-Image not uploading in horizon (undefined errors when upload): [https://bugs.launchpad.net/horizon/+bug/1630833](https://bugs.launchpad.net/horizon/+bug/1630833)
+#### Image not uploading in horizon (undefined errors on upload)
+See response on: [https://bugs.launchpad.net/horizon/+bug/1630833](https://bugs.launchpad.net/horizon/+bug/1630833)
+
+#### Cannot install Magnum, etc. undefined Ansible variable "ansible_host"
+- Goto /etc/openstack_deploy/openstack_user_config.yml
+- Add the following YAML:
+```YAML
+identity_hosts:
+  localhost:
+    ip: 127.0.0.1
+    ansible_host: 127.0.0.1
+```
 
 ## Cloud Images
 
