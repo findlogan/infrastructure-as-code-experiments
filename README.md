@@ -50,6 +50,10 @@ Other Resources:
 
 - [https://docs.openstack.org/openstack-ansible/2023.2/user/aio/quickstart.html](https://docs.openstack.org/openstack-ansible/2023.2/user/aio/quickstart.html)
 
+#### Troubleshooting
+
+Image not uploading in horizon (undefined errors when upload): [https://bugs.launchpad.net/horizon/+bug/1630833](https://bugs.launchpad.net/horizon/+bug/1630833)
+
 ## Cloud Images
 
 - [https://cloud-images.ubuntu.com/jammy/20240328/](https://cloud-images.ubuntu.com/jammy/20240328/)
