@@ -50,4 +50,4 @@ Other Resources:
 ## Cloud Images
 
 - [https://cloud-images.ubuntu.com/jammy/20240328/](https://cloud-images.ubuntu.com/jammy/20240328/)
-- [https://cloud.centos.org/] (https://cloud.centos.org/)
+- [https://cloud.centos.org/](https://cloud.centos.org/)
