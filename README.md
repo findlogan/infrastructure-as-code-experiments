@@ -41,8 +41,8 @@ Other Resources:
 - [Pulumi Concepts (Official Docs)](https://www.pulumi.com/docs/concepts/)
 - [Pulumi Installation (Official Docs)](https://www.pulumi.com/registry/packages/openstack/installation-configuration/)
 
-### devstack
-> useful for developing in openstack, takes 10-15min to install
+### Devstack (Great for Openstack evaluation or development, strongly discouraged for production)
+> Useful for developing in openstack, takes 10-15min to install
 
 - [DevStack local environment for OpenStack (Official Docs)](https://docs.openstack.org/devstack/latest/)
 
