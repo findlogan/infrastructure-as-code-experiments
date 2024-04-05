@@ -22,6 +22,11 @@ In my case, I am going to use Kubernetes as container orchestration running dock
 
 > Kubernetes manages containers through an abstraction layer provided by the Container Runtime Interface (CRI), allowing it to work with various container runtimes.
 
+Using conf files:
+```bash
+export KUBECONFIG=/path/to/your/admin.conf
+```
+
 Load balancing (which has been an incredible search):
 - [https://metallb.universe.tf/](https://metallb.universe.tf/)
 
