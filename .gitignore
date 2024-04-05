@@ -2,3 +2,4 @@
 **/node_modules/*
 /Pulumi/Openstack/configure-pulumi-local.sh
 /Pulumi/Openstack/Pulumi.dev.yaml
+minikube-linux-amd64
